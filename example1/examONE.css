@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(bg.png);
+  background-size: cover;
+}
+
+/* header başlangıç */
+
+header {
+  height: 100px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.06);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  column-gap: 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+nav .menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav .menu-buton {
+  color: aquamarine;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.08);
+  padding: 12px 24px;
+  border-radius: 20px;
+  margin-left: 30px;
+}
+
+nav ul li a:hover {
+  color: aquamarine;
+}
+
+nav .menu-buton:hover {
+  background-color: aquamarine;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .menu ul {
+    column-gap: 20px;
+  }
+}
+
+/* header bitiş */
+
+/* section başlangıç */
+
+section .icerik {
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+}
+section .icerik h1 {
+  margin-bottom: 20px;
+}
+
+section .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+
+section .links a {
+  color: black;
+  background-color: white;
+  padding: 20px 35px;
+  border-radius: 40px;
+  text-decoration: none;
+  margin-top: 50px;
+  font-size: large;
+}
+/* section bitiş */
