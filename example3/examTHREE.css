@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(dark-background.jpg) no-repeat;
+  background-size: cover;
+}
+.signin-form {
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  background-image: url(m.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.signin-form h1 {
+  margin-top: 30px;
+  color: white;
+  font-size: 40px;
+}
+
+.signin-form input {
+  display: block;
+  width: 100%;
+  padding: 0 16px;
+  height: 44px;
+  text-align: center;
+  box-sizing: border-box;
+  border: none;
+}
+
+.txt {
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.signin-btn {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  background: #538fef;
+  color: white;
+  border-radius: 44px;
+  cursor: pointer;
+  transition: 0.8s;
+  display: block;
+}
+
+.signin-btn:hover {
+  transform: scale(0.96);
+  background: white;
+  color: #538fef;
+}
+
+.signin-form a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.signin-form a:hover {
+  color: yellow;
+}
